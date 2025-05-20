@@ -169,7 +169,7 @@ export default {
           this.turnstileWidgetId = window.turnstile.render(
             "#turnstile-container",
             {
-              sitekey: "0x4AAAAAAA7SN9BgICU6k8R5",
+              sitekey: "0x4AAAAAABd_KXWUW8jJfTle",
               callback: (token) => {
                 this.isCaptchaSolved = true;
               },
